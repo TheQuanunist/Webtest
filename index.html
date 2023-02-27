@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Website Layout</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+}
+
+/* Left and right column */
+.column.side {
+  width: 25%;
+}
+
+/* Middle column */
+.column.middle {
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Seven Wonders of the world!
+  </h1>
+  <p>Resize the browser window to see the responsive effect.</p>
+</div>
+
+<div class="topnav">
+  <a href="#">Home</a>
+  <a href="#">The Great Wall of China</a>
+  <a href="#">The Colosseum</a>
+  <a href="#">The Taj Mahal</a>
+  <a href="#">Chichen Itza</a>
+  <a href="#">Christ the Redeemer</a>
+  <a href="#">Petra</a>
+  <a href="#">Manchu Picchu</a>
+</div>
+
+<div class="row">
+  <div class="column side">
+    <h2>Side</h2>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1234567890123456" crossorigin="anonymous"></script>
+<!-- Homepage Leaderboard -->
+<ins class="adsbygoogle"
+style="display:inline-block;width:728px;height:90px"
+data-ad-client="ca-pub-1234567890123456"
+data-ad-slot="1234567890"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit..</p>
+  </div>
+  
+  <div class="column middle">
+    <h2>7 Wonders of the world</h2>
+    <p>For centuries, human civilizations across the world have built and created cities, buildings, monuments, tombs, temples, churches, mosques, and other structures that continue to inspire awe in millions. Narrowing down the world's wonders to only seven is a difficult task. Luckily, the New7Wonders Foundation took the initiative to compose a list of the "new" seven wonders of the world by narrowing down a list of 200 monuments from around the world, including some of the world's most famous landmarks. 21 finalists were selected from this list, and the top seven were selected by popular vote. These are the seven new wonders of the world: Chichén Itzá in Mexico, Christ the Redeemer Statue in Brazil, the Colosseum in Italy, the Great Wall of China, Machu Picchu in Peru, Petra in Jordan, and the Taj Mahal in India. Each one offers a unique experience to those lucky enough to see them. From awe-inspiring design elements to hidden stories behind each structure, these wonders remain relevant today as they continue to capture imaginations across the globe.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+  </div>
+  
+  <div class="ADs">
+    <h2></h2>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1234567890123456" crossorigin="anonymous"></script>
+<!-- Homepage Leaderboard -->
+<ins class="adsbygoogle"
+style="display:inline-block;width:728px;height:90px"
+data-ad-client="ca-pub-1234567890123456"
+data-ad-slot="1234567890"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+    <p></p>
+  </div>
+</div>
+  
+</body>
+</html>
